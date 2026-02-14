@@ -228,15 +228,7 @@ Built as a professional portfolio project demonstrating:
 - Data visualization
 - Clean code architecture
 
-## 🐛 Known Issues / Future Enhancements
 
-- [ ] Email notifications for ticket updates
-- [ ] File attachments for tickets
-- [ ] Real-time notifications with WebSockets
-- [ ] Bulk ticket operations
-- [ ] Advanced reporting and exports
-- [ ] Mobile app integration
-- [ ] Multi-language support
 
 ---
 
