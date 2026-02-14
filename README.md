@@ -2,7 +2,7 @@
 
  A modern, full-featured customer support ticket management system built with Next.js, TypeScript, and PostgreSQL. This application demonstrates professional-grade development practices with role-based access control, real-time analytics, and a beautiful user interface.
 
-## 🌟 Features
+## Features
 
 ### Core Functionality
 - **Multi-Role Authentication System**
@@ -53,63 +53,8 @@
 - PostgreSQL database
 - Google OAuth credentials (optional, for SSO)
 
-## 🚀 Quick Start
 
-### 1. Installation
-
-```bash
-# Install dependencies
-cd nextjs_space
-yarn install
-```
-
-### 2. Environment Setup
-
-The `.env` file should contain:
-
-```env
-DATABASE_URL="postgresql://user:password@host:5432/database"
-NEXTAUTH_SECRET="your-secret-key"
-NEXTAUTH_URL="http://localhost:3000"
-GOOGLE_CLIENT_ID="your-google-client-id"
-GOOGLE_CLIENT_SECRET="your-google-client-secret"
-```
-
-### 3. Database Setup
-
-```bash
-# Generate Prisma Client
-yarn prisma generate
-
-# Push schema to database
-yarn prisma db push
-
-# Seed database with sample data
-yarn prisma db seed
-```
-
-### 4. Run Development Server
-
-```bash
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-## 🔐 Test Accounts
-
-After seeding, the following accounts are available:
-
-| Role     | Email                      | Password     |
-|----------|----------------------------|-------------|
-| Admin    | john@doe.com               | johndoe123  |
-| Agent    | agent1@supportdesk.com     | agent123    |
-| Agent    | agent2@supportdesk.com     | agent123    |
-| Customer | customer1@example.com      | customer123 |
-| Customer | customer2@example.com      | customer123 |
-| Customer | customer3@example.com      | customer123 |
-
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 nextjs_space/
@@ -150,7 +95,7 @@ nextjs_space/
     └── next-auth.d.ts          # NextAuth types
 ```
 
-## 🎨 Key Features Implementation
+## Features Implementation
 
 ### Role-Based Access Control
 
@@ -160,17 +105,6 @@ The application implements three distinct roles:
 - **Agent**: Can view and manage assigned tickets, update status, and add comments
 - **Customer**: Can create tickets, view own tickets, and communicate via comments
 
-### Google SSO Integration
-
-To enable Google Sign-In:
-
-1. Go to [Google Cloud Console](https://console.cloud.google.com/)
-2. Create a new project or select existing
-3. Enable Google+ API
-4. Create OAuth 2.0 credentials:
-   - Application type: Web application
-   - Authorized redirect URIs: `{your-domain}/api/auth/callback/google`
-5. Add credentials to `.env` file
 
 ### Analytics Dashboard
 
@@ -185,48 +119,10 @@ The analytics dashboard provides real-time insights:
 
 See [API-DOCS.md](./API-DOCS.md) for complete API documentation.
 
-## 🗄️ Database Schema
+##  Database Schema
 
 See [SCHEMA.md](./SCHEMA.md) for detailed database schema documentation.
 
-## 🚢 Deployment
-
-### Build for Production
-
-```bash
-yarn build
-yarn start
-```
-
-### Environment Variables for Production
-
-Ensure all environment variables are set in your hosting platform:
-
-- `DATABASE_URL`: Production database connection string
-- `NEXTAUTH_SECRET`: Strong random secret
-- `NEXTAUTH_URL`: Your production domain
-- `GOOGLE_CLIENT_ID`: Production OAuth client ID
-- `GOOGLE_CLIENT_SECRET`: Production OAuth client secret
-
-## 🤝 Contributing
-
-This is a portfolio project demonstrating professional development practices. Feel free to fork and customize for your own needs.
-
-## 📄 License
-
-MIT License - feel free to use this project for learning or portfolio purposes.
-
-## 👤 Author
-
-Built as a professional portfolio project demonstrating:
-- Full-stack development with Next.js
-- TypeScript best practices
-- Database design with Prisma
-- Authentication and authorization
-- Modern UI/UX design
-- RESTful API development
-- Data visualization
-- Clean code architecture
 
 
 
