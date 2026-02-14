@@ -1,0 +1,22 @@
+# dependencies
+node_modules
+
+# Next.js
+.next
+out
+
+# env files (secrets)
+.env
+.env.*
+!.env.example
+
+# logs
+*.log
+
+# build artifacts
+dist
+build
+
+# misc
+tsconfig.tsbuildinfo
+.DS_Store
