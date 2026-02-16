@@ -76,12 +76,5 @@ The analytics dashboard provides real-time insights:
 - **Visual Charts**: Category and priority distribution
 - **Activity Feed**: Recent ticket activities
 
-## API Documentation
-
-See [API-DOCS.md](./API-DOCS.md) for complete API documentation.
-
-##  Database Schema
-
-See [SCHEMA.md](./SCHEMA.md) for detailed database schema documentation.
 
 
