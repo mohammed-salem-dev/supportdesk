@@ -1,6 +1,8 @@
+Note: This repository is a sanitized demo version built for portfolio purposes. It contains no client data or secrets.
+
 # SupportDesk - Customer Support Ticket System
 
- A modern, full-featured customer support ticket management system built with Next.js, TypeScript, and PostgreSQL. This application demonstrates professional-grade development practices with role-based access control, real-time analytics, and a beautiful user interface.
+ A modern, full-featured customer support ticket management system built with Next.js, TypeScript, and PostgreSQL.
 
 ## 🛠️ Tech Stack
 
