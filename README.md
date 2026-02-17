@@ -4,7 +4,7 @@ Note: This repository is a sanitized demo version built for portfolio purposes. 
 
  A modern, full-featured customer support ticket management system built with Next.js, TypeScript, and PostgreSQL.
 
-## 🛠️ Tech Stack
+## Tech:
 
 - **Frontend**: Next.js 14 (App Router), React 18, TypeScript
 - **Styling**: Tailwind CSS, shadcn/ui components
